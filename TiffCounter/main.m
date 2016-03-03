@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
         //you could implement handling any path by using arguments like below
         //NSString *path = [NSString stringWithUTF8String:argv[1]];
         NSFileManager *fileManager = [[NSFileManager alloc] init];
-        NSURL *directoryURL = [NSURL fileURLWithPath:@"/Volumes/Seagate Expansion Drive/"];
+        NSURL *directoryURL = [NSURL fileURLWithPath:@"some path to url"];
         NSArray *keys = [NSArray arrayWithObject:NSURLIsDirectoryKey];
         
         NSDirectoryEnumerator *enumerator = [fileManager
